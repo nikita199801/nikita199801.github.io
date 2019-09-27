@@ -1,0 +1,141 @@
+/* ============================= */
+/* INTRO */
+/* ============================ */
+.article_content {
+	max-width: 100%;
+	height: 100%;
+	font-size: 1.15em;
+	line-height: 24px;
+	color: #626262;
+	font-family: "Playfair Display";
+	font-weight: 400;
+	margin: 0;
+}
+
+.photo-cards {
+	margin-top: 5%;
+	width: 100%;
+}
+.photo-cards > img {
+	width: 90%;
+}
+
+.article_content_bottom {
+	max-width: 90%;
+	height: 100%;
+	font-size: 1.15em;
+	line-height: 24px;
+	color: #626262;
+	font-family: "Playfair Display";
+	font-weight: 400;
+}
+
+.blockquote {
+	font-family: "Playfair Display";
+	font-weight: 400;
+	font-style: italic;
+	color: #666666;
+	font-size: 1.15em;
+	width: 80%;
+	margin: 5%;
+}
+
+.social_share li {
+	list-style: none;
+	display: inline;
+	margin: 0 5px;
+	font-size: 1.15em;
+}
+
+.social_share {
+	font-family: "Playfair Display";
+	font-weight: 400;
+	color: #b4ad9e;
+	max-width: 90%;
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 90px;
+}
+
+.social_share a:hover {
+	color: #626262;
+}
+
+/* ============================= */
+/* MINIMALISTIC CARDS */
+/* ============================ */
+.related-image {
+	max-width: 100%;
+}
+
+.card-minimal {
+	box-sizing: border-box;
+	max-width: 100%;
+	margin: 0 5%;
+	padding: 0;
+	text-align: left;
+	line-height: 24px;
+	color: #626262;
+	font-family: "Playfair Display";
+	font-weight: bold;
+}
+
+.card-minimal h5 {
+	padding-top: 5%;
+	margin: 0;
+}
+
+.col-md-4 {
+	margin: 0;
+	padding: 0;
+}
+
+.cards-link {
+	text-align: left;
+	font-size: 1em;
+	font-family: "Ubuntu";
+	font-weight: 300;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+/* ============================= */
+/* COMMENTS */
+/* ============================ */
+.comment-image {
+	border-radius: 100px;
+	width: 64px;
+	height: 64px;
+}
+
+.media-body {
+	font-size: 1em;
+	font-family: "Playfair Display";
+	font-weight: 300;
+	color: #626262;
+}
+
+.media-body h6 {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.media {
+	margin-bottom: 5%;
+}
+
+.media > textarea {
+	border-radius: 10px;
+	border-color: #626262;
+	padding: 15px 0 0 15px;
+	width: 100%;
+	outline: none;
+	opacity: 0.4;
+}
+
+.logined-img {
+	border-radius: 100px;
+	width: 64px;
+	height: 64px;
+	opacity: 0.4;
+}
