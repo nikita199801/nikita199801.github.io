@@ -13,13 +13,16 @@ a:hover {
 	color: #b4ad9e;
 }
 
-.col-md-6 {
+.col-md-6,
+.row {
 	box-sizing: border-box;
 	display: flex;
 	justify-content: safe center;
+	margin: 0 10px;
 }
 
 .container {
+	max-width: 70%;
 	padding: 0;
 }
 
@@ -27,7 +30,7 @@ a:hover {
 /* NAVBAR */
 /* ============================ */
 .navbar {
-	width: 90%;
+	width: 100%;
 }
 .nav-link {
 	margin: 0 0 0 80px;
@@ -74,7 +77,7 @@ a:hover {
 
 #introImage {
 	margin-top: 50px;
-	width: 90%;
+	width: 100%;
 	margin-bottom: 100px;
 }
 
@@ -99,7 +102,7 @@ div:nth-of-type(2) > h2 {
 }
 
 .article_content {
-	width: 90%;
+	width: 100%;
 	height: 100%;
 	font-size: 1.15em;
 	line-height: 24px;
@@ -149,7 +152,7 @@ div:nth-of-type(2) > h2 {
 .col-sm-12,
 .col-xs-12 {
 	max-width: 90%;
-	padding: 0 15px;
+	padding: 0;
 }
 
 /* ============================= */
