@@ -239,19 +239,18 @@ footer {
 	background: url("images//formbg.jpg") no-repeat;
 	background-size: cover;
 }
-
-.footer-content {
-	display: flex;
-	justify-content: space-between;
+.social-media,
+.terms-info {
+	width: 100%;
 }
 
 .terms-info li,
-.social-media li {
+.social-media li,
+.social-media p {
 	list-style-type: none;
 	display: inline-block;
-	padding-right: 30px;
 	font-size: .9em;
-	line-height: 25px;
+	line-height: 20px;
 	color: black;
 	font-family: "Playfair Display";
 	font-weight: 400;
@@ -277,5 +276,5 @@ footer {
 }
 
 footer a:hover {
-	font-size: 20px;
+	font-size: 15px;
 }
