@@ -249,7 +249,7 @@ footer {
 .social-media p {
 	list-style-type: none;
 	display: inline-block;
-	font-size: .9em;
+	font-size: .6em;
 	line-height: 20px;
 	color: black;
 	font-family: "Playfair Display";
@@ -265,6 +265,7 @@ footer {
 	padding-top: 30px;
 	height: 100%;
 	padding: 0;
+	margin: 0;
 }
 
 .footer-link {
