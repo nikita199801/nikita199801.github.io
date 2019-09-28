@@ -233,11 +233,12 @@ div:nth-of-type(2) > h2 {
 /* FOOTER */
 /* ============================ */
 footer {
-	padding-top: 2%;
+	padding-top: 3%;
 	width: 100%;
 	height: 100px;
 	background: url("images//formbg.jpg") no-repeat;
 	background-size: cover;
+	border: 1px solid red;
 }
 .social-media,
 .terms-info {
