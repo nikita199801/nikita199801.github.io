@@ -52,7 +52,7 @@ a:hover {
 .navbar-expand-lg .navbar-nav {
 	padding-top: 15px;
 	justify-content: space-around;
-	margin-right: -30px;
+	margin-right: -50px;
 }
 
 .navbar-expand-lg {
@@ -64,7 +64,7 @@ a:hover {
 }
 
 .nav-item {
-	margin-right: 30px;
+	margin-right: 50px;
 }
 
 .navbar-toggler {
