@@ -179,12 +179,12 @@ div:nth-of-type(2) > h2 {
 }
 
 .form-sign-up {
-	background: url("images/btn.jpg") no-repeat right;
+	background: url("images/formbg.jpg") center;
 	border: none;
 	border-radius: 0;
 	border-bottom: solid 1px black;
 	outline: none;
-	width: 45%;
+	max-width: 100%;
 	padding: 0;
 	margin: 70px 0;
 	height: calc(1.5em + .75rem + 2px);
@@ -192,6 +192,10 @@ div:nth-of-type(2) > h2 {
 	font-weight: 400;
 	line-height: 1.5;
 	color: #495057;
+}
+
+.form-sign-up::after {
+	content: url("images/btn.jpg");
 }
 
 /* ============================= */
