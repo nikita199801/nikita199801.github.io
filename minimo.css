@@ -235,7 +235,7 @@ div:nth-of-type(2) > h2 {
 footer {
 	padding-top: 2%;
 	width: 100%;
-	height: 100px;
+	height: 20vh;
 	background: url("images//formbg.jpg") no-repeat;
 	background-size: cover;
 }
