@@ -44,12 +44,12 @@
 	list-style: none;
 	display: inline;
 	margin: 0 5px;
-	font-size: 1.15em;
 }
 
 .social_share {
 	font-family: "Playfair Display";
 	font-weight: 400;
+	font-size: .9em;
 	color: #b4ad9e;
 	max-width: 90%;
 	display: flex;
@@ -71,7 +71,7 @@
 .card-minimal {
 	box-sizing: border-box;
 	max-width: 100%;
-	margin: 0 5%;
+	margin: 0 5% 20px;
 	padding: 0;
 	text-align: left;
 	line-height: 24px;
@@ -99,6 +99,15 @@
 	margin-bottom: 30px;
 }
 
+.after-cards .container {
+	display: flex;
+	justify-content: safe center;
+}
+
+.row:nth-of-type(2) {
+	justify-content: safe center;
+	margin: 0;
+}
 /* ============================= */
 /* COMMENTS */
 /* ============================ */
